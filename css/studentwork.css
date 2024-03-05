@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+        /* applies to everything */
+    }
+
+header {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(175, 176, 255);
+    margin-top: 0px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(238, 188, 255);
+    height: 300vh;
+}
+
+#youtubelink {
+    height: 60vh;
+    background-color: rgb(71, 65, 110);
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2753;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 211, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #120c28;
+  }
+
+
+
+
+  /* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: rgb(231, 160, 255);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: rgb(238, 188, 255);
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  text-align: center;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {
+  background-color: rgb(146, 148, 252);
+height: 180vh;
+}
+#News {
+  background-color: rgb(71, 65, 110);
+  height: 180vh;
+}
+#Contact {
+  background-color: rgb(175, 176, 255);
+  height: 180vh;
+}
+#About {
+  background-color: #2b2753;
+  height: 180vh;
+}
+
+
+#options {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 15px;
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 350px 350px 350px 350px 350px 350px 350px 350px 350px;
+
+  gap: 20px;
+}
+
+.options1 {
+  padding-top: 100px;
+}
+
+
+
+iframe {
+  border-radius: 10px;
+}

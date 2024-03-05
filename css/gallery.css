@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+        /* applies to everything */
+        text-align: center;
+    }
+
+header {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(238, 188, 255);
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+/*#youtubelink {
+    height: 60vh;
+    background-color: rgb(71, 65, 110);
+}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2753;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 211, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #120c28;
+  }
+
+  /* PORTFILIO SETTINGS */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #120c28;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: #2b2753;
+    padding: 30px;
+    color: rgb(238, 188, 255);
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: rgb(238, 188, 255);
+    cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btn:hover {
+    background-color: rgb(175, 176, 255);
+  }
+  
+  /* Add a dark background color to the active button */
+  .btn.active {
+    background-color: #2b2753;
+     color: rgb(238, 188, 255);
+  }
+
+  section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }

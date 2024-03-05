@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+        /* applies to everything */
+        text-align: center;
+    }
+
+header {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(175, 176, 255);
+    margin-top: 0px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(238, 188, 255);
+    height: 300vh;
+}
+
+#youtubelink {
+    height: 60vh;
+    background-color: rgb(71, 65, 110);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2753;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 211, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #120c28;
+  }
