@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+        /* applies to everything */
+        /*text-align: center;*/
+    }
+    
+
+    
+    
+    body {
+        background-color: rgb(238, 188, 255);
+        height: 400vh;
+    }
+    
+   
+    .header1 {
+        height: 100px;
+        background-color: rgb(88, 81, 133);
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        justify-content: left;
+    } 
+
+    /*
+    .fakeprofile {
+      height: 80%;
+      width: 80%;
+      float: right;
+    }
+    */
+    
+    footer {
+        height: 120px;
+        width: 100%;
+        background-color: rgb(165, 181, 193);
+        margin-bottom: 0px;
+    }
+    
+    #youtubelink {
+        padding-left: 150px;
+        padding-top: 20px;
+        height: 100%;
+        background-color: rgb(71, 65, 110);
+        margin-right: 35%;
+    }
+    
+    /*
+    #options {
+        text-align: center;
+        padding: 15px;
+        height: 200vh;
+        background-color: rgb(175, 176, 255);
+        display: grid;
+        grid-auto-flow: row dense;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 350px 350px 350px 350px 350px 350px 350px 350px 350px;
+
+        gap: 15px;
+    }
+    
+
+    .options1 {
+        background-color: rgb(255, 197, 220);
+        border: 1px solid rgb(116, 109, 154);
+    }
+    
+    .one {
+        background-color: rgb(156, 174, 255);
+    }
+    
+    .two {
+        background-color: rgb(175, 176, 255);
+    }
+    
+    .three {
+        background-color: rgb(218, 195, 255);
+    }
+    
+    .four {
+        background-color: rgb(195, 203, 255);
+    }
+
+    .five {
+        background-color: rgb(242, 202, 255);
+    }
+
+    .six {
+        background-color: rgb(254, 202, 255);
+    }
+
+    .seven {
+        background-color: rgb(254, 202, 255);
+    }
+
+    .eight {
+        background-color: rgb(255, 202, 244);
+    }
+
+    .nine {
+        background-color: rgb(255, 202, 229);
+    }
+    */
+
+
+    h1 {
+        color: rgb(47, 47, 87);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        }
+
+    .youtubetitle1 {
+            color: rgb(238, 188, 255);
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            }
+    
+    h3 {
+        font-weight: normal;
+    }
+    
+    h4 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    img {
+        max-width: 80%;
+        max-height: 80%;
+        object-fit: contain;
+    }
+
+    
+    a {
+        text-decoration: none;
+        color: rgb(55, 53, 92);
+    }
+    
+    #hero-img {
+        height: 100%;
+    }
+
+      /* COPY */
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2b2753;
+        font-family: Arial;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(255, 211, 240);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #120c28;
+      }
+         
+      /* Sidebar */
+      .sidebar {
+        height: 300vh;
+        width: 35%;
+        float: right;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: rgb(238, 188, 255);
+        overflow-x: hidden;
+        padding-top: 20px;
+        margin-top: 120px;
+      }
+
+      
+      .sidebar a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: rgb(71, 65, 110);
+        display: block;
+      }
+      
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+      
+      .main {
+        margin-left: 35%; /* Same as the width of the sidenav */
+        padding: 0px 10px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidebar {padding-top: 15px;}
+        .sidebar a {font-size: 18px;}
+      }
+
+      .sidebarone {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 15px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+      }
+
+
+      .sidebartwo {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 15px;
+        padding-bottom: 15px;
+      }
+
+      .sidebarthree {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 15px;
+        padding-bottom: 15px;
+      }
+
+      .sidebarfour {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 15px;
+        padding-bottom: 15px;
+      }
+
+      .sidebarfive {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 15px;
+        padding-bottom: 15px;
+      }
+      .sidebarsix {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 15px;
+        padding-bottom: 15px;
+      }
+
+      .sidebarseven {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 15px;
+        padding-bottom: 15px;
+      }
+
+      .sidebareight {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 15px;
+        padding-bottom: 15px;
+      }
+
+      .sidebarnine {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 15px;
+        padding-bottom: 15px;
+      }
+
+      .icon {
+        height: 35%;
+        width: 35%;
+        border-radius: 10px;
+      }
+
+      .titlegif {
+        height: 100%;
+        width: 400px;
+        padding-left: 35px;
+      }
+
+      iframe {
+        border-radius: 10px;
+        height: 16%;
+        width: 90%;
+      }
+
+      .pfp {
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+      }
+
+      .pfpcaption {
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        font-size: 12px;
+        padding-left: 15px;
+        color: rgb(175, 176, 255);
+      }
+
+      .videotitle {
+        display: flex;
+        align-items: center;
+      }
+      
+      .videocaption {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-size: small;
+        padding-top: 10px;
+        color: rgb(117, 108, 172);
+        line-height: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .videocaption:hover {
+        color: #f1f1f1;
+      }
+
+      .advertisement {
+        padding-left: 15px;
+        height: 200px;
+      }
+      
+
+    /* SHRUNK SIDEBAR */
+
+    /* The sidebar menu */
+.sidebar2 {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0 !important;
+  left: 0 !important;
+  background-color: #2b2753; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+
+}
+
+/* The sidebar links */
+.sidebar2 a {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(238, 188, 255);
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar2 a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar2 .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 35px;
+  cursor: pointer;
+  background-color:  rgb(88, 81, 133);
+  color: rgb(238, 188, 255);
+  padding: 10px 15px;
+  border: none;
+  margin-left: 20px;
+  margin-right: -20px;
+}
+
+.openbtn:hover {
+  background-color: rgb(71, 65, 105);
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.comment {
+  padding-top: 100px;
+}
+
+.comment1 {
+  height: 120px;
+}
