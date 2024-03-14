@@ -4,12 +4,19 @@
         /*text-align: center;*/
     }
     
+    @font-face {
+      font-family: Roboto;
+      src: url(../fonts/Roboto-Regular.ttf);
+    }
 
-    
+    @font-face {
+      font-family: Vercetti;
+      src: url(../fonts/Vercetti-Regular.ttf);
+    }
     
     body {
         background-color: rgb(238, 188, 255);
-        height: 400vh;
+        height: 250vh;
     }
     
    
@@ -24,20 +31,23 @@
         justify-content: left;
     } 
 
-    /*
+   
     .fakeprofile {
-      height: 80%;
-      width: 80%;
-      float: right;
+      position: absolute;
+      right: 0%;
+      top: 20px;
+      height: 8%;
+      width: 8%;
+      /* float: right; */
     }
-    */
-    
+  
+    /*
     footer {
         height: 120px;
         width: 100%;
         background-color: rgb(165, 181, 193);
         margin-bottom: 0px;
-    }
+    } */
     
     #youtubelink {
         padding-left: 150px;
@@ -107,12 +117,14 @@
 
     h1 {
         color: rgb(47, 47, 87);
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        font-family:Helvetica, sans-serif
         }
 
     .youtubetitle1 {
             color: rgb(238, 188, 255);
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            font-family: vercetti;
+            font-size: 28px;
+            padding-left: 8px;
             }
     
     h3 {
@@ -168,7 +180,7 @@
          
       /* Sidebar */
       .sidebar {
-        height: 300vh;
+        height: 220vh;
         width: 35%;
         float: right;
         position: absolute;
@@ -185,7 +197,7 @@
       .sidebar a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         color: rgb(71, 65, 110);
         display: block;
@@ -212,6 +224,7 @@
         padding-left: 15px;
         padding-top: 20px;
         padding-bottom: 15px;
+        font-size: 0;
       }
 
 
@@ -292,27 +305,88 @@
 
       iframe {
         border-radius: 10px;
-        height: 16%;
+        height: 25.5%;
         width: 90%;
       }
 
       .pfp {
-        height: 50px;
-        width: 50px;
-        border-radius: 100%;
+        height: 6.2%;
+        width: 6.2%;
+        border-radius: 50%;
+      }
+
+      .captiontext {
+        line-height: 8px;
       }
 
       .pfpcaption {
         font-family: Arial, Helvetica, sans-serif;
         align-items: center;
-        font-size: 12px;
+        font-size: 14px;
         padding-left: 15px;
         color: rgb(175, 176, 255);
       }
 
+      .pfpcaption2 {
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        font-size: 11px;
+        padding-left: 15px;
+        color: rgb(149, 151, 239);
+      }
+
+
+
+      /*
+      .pfpcaption2 {
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        font-size: 12px;
+        padding-left: 100px;
+        color: rgb(175, 176, 255);
+      }
+      */
+
+
       .videotitle {
         display: flex;
         align-items: center;
+      }
+
+      .videodescription {
+        padding: 20px;
+        margin-top: 30px;
+        width: 89%;
+        height: 10%;
+        background-color: rgb(78, 72, 120);
+        border-radius: 15px;
+      }
+
+      .desctitle {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        color: rgb(175, 176, 255);
+      }
+
+      .desctext {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: rgb(175, 176, 255);
+        line-height: 22px;
+        padding-right: 8%;
+    
+  
+      }
+
+      .fakebuttons {
+        position: absolute;
+        align-items: center;
+        height: 20%;
+        width: 20%;
+        top: 92.5%;
+        right: 36.5%;
+        /* float: right; */
       }
       
       .videocaption {
@@ -332,7 +406,7 @@
 
       .advertisement {
         padding-left: 15px;
-        height: 200px;
+        height: 230px;
       }
       
 
@@ -407,9 +481,66 @@
 }
 
 .comment {
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 .comment1 {
   height: 120px;
+  margin-top: 5px;
+}
+
+
+/* PLEASE WORK HOVER IMAGE */
+
+.container {
+  position: relative;
+  width: 45%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  right: 0;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(175, 176, 255);
+  border-radius: 10px;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+
+}
+
+.text {
+  color: white;
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  top: 46%;
+  left: 48%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.sidetitle {
+  position: absolute;
+ left: 37%;
 }

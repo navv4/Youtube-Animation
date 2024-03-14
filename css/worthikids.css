@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Vercetti;
+    src: url(../fonts/Vercetti-Regular.ttf);
+  }
+
+  body {
+    height: 90vh;
+    background-color: #2b2753;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 35%;
+    text-align: center;
+  }
+
+  .creatorname {
+    color: #2b2753;
+    text-align: left;
+    font-family: Vercetti;
+    font-size: 40px;
+    text-align: center;
+  } 
+/*
+  .iconsdiv {
+    position: absolute;
+  } */
+
+  .icon {
+    height: 12vh;
+    width: 12vh;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+  }
+
+  .animatorinfo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 30%;
+    height: 91%;
+    border-radius: 20px;
+    background-color: rgb(238, 188, 255);
+  }
+
+  .videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ytvideo {
+    width: 90%;
+    height: 120%;
+    text-align: center;
+    background-color: rgb(71, 65, 110);
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .two {
+    margin-top: 10%;
+    height: 107%;
+}
+
+  .newinspotitle1 {
+    font-family: Vercetti;
+    font-size: 30px;
+    color: aliceblue;
+  }
+
+  .newinspodesc {
+    margin-top: 3%;
+    font-family: Roboto;
+    font-size: 18px;
+    color:  aliceblue;
+  }
+
+  iframe {
+    height: 55%;
+    width: 75%;
+    border-radius: 10px;
+  }
+
+  #vincent {
+    width: 50%;
+    height: 35%;
+  }
+
+  h2 {
+    color: rgb(71, 65, 110);
+    padding-top: 3%;
+    padding-bottom: 4%;
+    font-family: Roboto;
+    font-size: 17px;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 22px;
+  }

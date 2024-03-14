@@ -4,6 +4,17 @@
         text-align: center;
     }
 
+    @font-face {
+      font-family: Roboto;
+      src: url(../fonts/Roboto-Regular.ttf);
+    }
+
+    @font-face {
+      font-family: Vercetti;
+      src: url(../fonts/Vercetti-Regular.ttf);
+    }
+
+
 header {
     height: 120px;
     width: 100%;
@@ -14,13 +25,8 @@ header {
 
 body {
     background-color: rgb(238, 188, 255);
-    height: 300vh;
 }
 
-#youtubelink {
-    height: 60vh;
-    background-color: rgb(71, 65, 110);
-}
 
 ul {
     list-style-type: none;
@@ -30,6 +36,7 @@ ul {
     background-color: #2b2753;
     position: sticky;
     top: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   li {
@@ -48,3 +55,246 @@ ul {
   li a:hover {
     background-color: #120c28;
   }
+
+
+
+/*
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(175, 176, 255);
+    border-radius: 10px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-100%, -100%);
+    -ms-transform: translate(-100%, -100%);
+    transform: translate(-1=0%, -100%);
+    text-align: center;
+  }
+  */
+
+  
+#landing {
+    height: 80vh;
+    background-color: rgb(71, 65, 110);
+}
+
+#landingtexttitle {
+  font-family: Vercetti;
+  color: aliceblue;
+  text-align: left;
+  font-size: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 7%;
+}
+
+#landingtext {
+  font-family: Roboto;
+  line-height: 27px;
+  color: rgb(175, 176, 255);
+  text-align: left;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 12px;
+}
+
+#iconselection {
+  text-align: left;
+  margin-left: 9%;
+  padding-top: 8%;
+}
+
+.webseriesicons {
+  width: 130px;
+  height: 130px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.youtubevideo {
+  margin-left: 5%;
+  margin-top: 9%;
+}
+
+.seriestitle {
+  font-family: Vercetti;
+  color: #2b2753;
+  text-align: left;
+  font-size: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 7%;
+}
+
+.seriescreator {
+  font-family: Vercetti;
+  color:  aliceblue;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+}
+
+.seriesblurb {
+  font-family: Roboto;
+  color:  rgb(71, 65, 110);
+  text-align: left;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 8%;
+}
+
+.clickhere {
+  font-family: Vercetti;
+  color:  rgb(71, 65, 110);
+  text-align: center;
+  font-size: 30px;
+  line-height: 22px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 10%;
+}
+
+.clickhere:hover {
+  color: #f1f1f1;
+}
+
+#bigtopburger {
+  height: 100vh;
+  background-color: rgb(238, 188, 255);
+  display: flex;
+}
+
+#btbinfo {
+  width: 40%;
+  background-color:rgb(175, 176, 255) ;
+  height: 85%;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+
+#enainfo {
+  width: 40%;
+  background-color:rgb(71, 65, 110) ;
+  height: 85%;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+#beeandpuppycatinfo {
+  width: 40%;
+  background-color:rgb(187, 189, 255) ;
+  height: 85%;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+#Eddsworldinfo {
+  width: 40%;
+  background-color:#2b2753 ;
+  height: 85%;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.e1 {
+  color: rgb(190, 191, 252);
+}
+
+.e2 {
+  color: rgb(175, 176, 255);
+  margin-right: 10%;
+}
+
+.ytlink {
+  width: 40%;
+  height: 20%;
+  background-color: rgb(238, 188, 255);
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  border-radius: 20px;
+}
+
+.ytlink:hover {
+  color: #f1f1f1;
+}
+
+#ENA {
+  height: 100vh;
+  background-color: #2b2753;
+  display: flex;
+}
+
+#beeandpuppycat {
+  height: 100vh;
+  background-color: rgb(175, 176, 255); 
+  display: flex;
+}
+
+#Eddsworld {
+  height: 100vh;
+  background-color: rgb(71, 65, 110);
+  display: flex;
+}
+
+
+
+html { scroll-behavior: smooth;}
+
+.bigvideo {
+  width: 250%;
+  height: 80%;
+  border-radius: 20px;
+}
+/*
+.ytrecommend {
+  position: absolute;
+  left: 49%;
+  top: 172%;
+}
+
+.littleframe {
+  border-radius: 10px;
+  margin: 5px;
+} */

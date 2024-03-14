@@ -3,9 +3,17 @@
     margin: 0;
         /* applies to everything */
     }
+    @font-face {
+      font-family: Roboto;
+      src: url(../fonts/Roboto-Regular.ttf);
+    }
+    @font-face {
+      font-family: Vercetti;
+      src: url(../fonts/Vercetti-Regular.ttf);
+    }
 
 header {
-    height: 120px;
+    height: 20rem;
     width: 100%;
     background-color: rgb(175, 176, 255);
     margin-top: 0px;
@@ -14,13 +22,63 @@ header {
 
 body {
     background-color: rgb(238, 188, 255);
-    height: 300vh;
+    
 }
 
+/*
+#cap {
+  height: 50%;
+  width: 10%;
+}*/
+
 #youtubelink {
-    height: 60vh;
-    background-color: rgb(71, 65, 110);
-    text-align: center;
+    height: 75%;
+    background-color: #2b2753;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+}
+
+#drawinganimation {
+  position: relative;
+  width: 35%;
+  height: 100%;
+  background-color: rgb(71, 65, 110);
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.textanimation {
+  height: 100%;
+  margin-left: 40px;
+  margin-right: 80px;
+}
+
+#textanimationtitle {
+  font-family: Vercetti;
+  color: aliceblue;
+  text-align: left;
+  font-size: 60px;
+  margin-left: 2%;
+  padding-top: 1%;
+}
+
+#textanimationsub {
+  font-family: Roboto;
+  color: rgb(175, 176, 255);
+  text-align: left;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-right: 30%;
+  line-height: 27px;
+}
+
+
+#drawing {
+  width: 100%;
 }
 
 ul {
@@ -29,7 +87,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #2b2753;
-    position: sticky;
     top: 0;
   }
   
@@ -54,11 +111,13 @@ ul {
 
 
   /* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
+
+  body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
 }
+
 
 /* Style tab links */
 .tablink {
@@ -88,24 +147,24 @@ body, html {
 
 #Home {
   background-color: rgb(146, 148, 252);
-height: 180vh;
+height: 150vh;
 }
 #News {
   background-color: rgb(71, 65, 110);
-  height: 180vh;
+  height: 150vh;
 }
 #Contact {
   background-color: rgb(175, 176, 255);
-  height: 180vh;
+  height: 150vh;
 }
 #About {
   background-color: #2b2753;
-  height: 180vh;
+  height: 150vh;
 }
 
 
 #options {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Vercetti;
   text-align: center;
   padding: 15px;
   display: grid;
@@ -124,4 +183,18 @@ height: 180vh;
 
 iframe {
   border-radius: 10px;
+}
+
+.Calarts {
+  height: 15%;
+  width: 30%;
+  border-radius: 10px;
+}
+
+p {
+  padding-left: 30%;
+  padding-right: 30%;
+  line-height: 25px;
+
+  text-align: left;
 }

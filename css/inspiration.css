@@ -3,23 +3,53 @@
         /* applies to everything */
         text-align: center;
     }
+  
+      @font-face {
+        font-family: Roboto;
+        src: url(../fonts/Roboto-Regular.ttf);
+      }
+  
+      @font-face {
+        font-family: Vercetti;
+        src: url(../fonts/Vercetti-Regular.ttf);
+      }
 
 header {
     height: 120px;
     width: 100%;
-    background-color: rgb(175, 176, 255);
+    background-color:  rgb(175, 176, 255);
     margin-top: 0px;
     text-align: center;
 }
 
 body {
     background-color: rgb(238, 188, 255);
-    height: 300vh;
 }
 
-#youtubelink {
-    height: 60vh;
-    background-color: rgb(71, 65, 110);
+#landing {
+    height: 80vh;
+    background-color: #2b2753;
+}
+
+#landingtexttitle {
+  font-family: Vercetti;
+  color: aliceblue;
+  text-align: left;
+  font-size: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 7%;
+}
+
+#landingtext {
+  font-family: Roboto;
+  line-height: 27px;
+  color:rgb(175, 176, 255);
+  text-align: left;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 40%;
+  padding-top: 12px;
 }
 
 ul {
@@ -30,6 +60,7 @@ ul {
     background-color: #2b2753;
     position: sticky;
     top: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   li {
@@ -47,4 +78,100 @@ ul {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #120c28;
+  }
+
+  .containernew {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .containerold {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  #inspo {
+    height: 90vh;
+  }
+
+  #inspo2 {
+    height: 170vh;
+    background-color: #2b2753;
+  }
+
+  .newinspo {
+    height: 120%;
+    width: 75%;
+    background-color: #2b2753;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+
+  .oldinspo {
+    height: 120%;
+    width: 75%;
+    background-color:rgb(238, 188, 255);
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+
+  .newinspotitle1 {
+    font-family: Vercetti;
+    font-size: 30px;
+    color: aliceblue;
+  }
+
+  .oldinspotitle1 {
+    padding-top: 5%;
+    font-family: Vercetti;
+    font-size: 30px;
+    color: rgb(71, 65, 110);
+  }
+
+  .newinspotitle {
+    margin-top: 4%;
+    font-family: Vercetti;
+    font-size: 40px;
+    color:  rgb(71, 65, 110);
+  }
+
+  .oldinspotitle {
+    margin-top: 4%;
+    padding-top: 4%;
+    font-family: Vercetti;
+    font-size: 40px;
+    color:  aliceblue;
+  }
+
+  .newinspodesc {
+    margin-top: 2%;
+    font-family: Roboto;
+    font-size: 18px;
+    color:  aliceblue;
+  }
+
+  .oldinspodesc {
+    margin-top: 2%;
+    font-family: Roboto;
+    font-size: 18px;
+    color:  rgb(71, 65, 110);
+  }
+
+
+  iframe {
+    margin-top: 7%;
+    margin-bottom: 5%;
+    border-radius: 10px;
   }
