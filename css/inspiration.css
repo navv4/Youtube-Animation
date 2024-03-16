@@ -57,7 +57,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2b2753;
+    background-color: #221f45;
     position: sticky;
     top: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -92,6 +92,7 @@ ul {
     margin-top: 3%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 450px;
     margin-left: 2%;
     margin-right: 2%;
   }
@@ -101,12 +102,12 @@ ul {
   }
 
   #inspo2 {
-    height: 170vh;
+    height: 150vh;
     background-color: #2b2753;
   }
 
   .newinspo {
-    height: 120%;
+    height: 150%;
     width: 75%;
     background-color: #2b2753;
     border-radius: 10px;
@@ -117,7 +118,7 @@ ul {
   }
 
   .oldinspo {
-    height: 120%;
+    height: 100%;
     width: 75%;
     background-color:rgb(238, 188, 255);
     border-radius: 10px;
@@ -174,4 +175,6 @@ ul {
     margin-top: 7%;
     margin-bottom: 5%;
     border-radius: 10px;
+    height: 60%;
+    width: 90%;
   }

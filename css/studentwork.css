@@ -1,7 +1,6 @@
 
-*{
+ *{ 
     margin: 0;
-        /* applies to everything */
     }
     @font-face {
       font-family: Roboto;
@@ -13,12 +12,13 @@
     }
 
 header {
-    height: 20rem;
+    height: 120px;
     width: 100%;
     background-color: rgb(175, 176, 255);
     margin-top: 0px;
     text-align: center;
 }
+
 
 body {
     background-color: rgb(238, 188, 255);
@@ -31,24 +31,23 @@ body {
   width: 10%;
 }*/
 
+
 #youtubelink {
-    height: 75%;
+    height: 77%;
     background-color: #2b2753;
     text-align: left;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 20px;
     width: 100%;
-    display: flex;
 }
 
 #drawinganimation {
   position: relative;
   width: 35%;
-  height: 100%;
-  background-color: rgb(71, 65, 110);
+  height: 90%;
   border-radius: 10px;
   text-align: center;
-  margin-left: 5%;
+  margin-left: 1%;
+  padding-top: 2%;
 }
 
 .textanimation {
@@ -66,6 +65,7 @@ body {
   padding-top: 1%;
 }
 
+
 #textanimationsub {
   font-family: Roboto;
   color: rgb(175, 176, 255);
@@ -78,7 +78,8 @@ body {
 
 
 #drawing {
-  width: 100%;
+  width: 60vh;
+  height: 80%;
 }
 
 ul {
@@ -88,6 +89,7 @@ ul {
     overflow: hidden;
     background-color: #2b2753;
     top: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   li {
@@ -115,7 +117,6 @@ ul {
   body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial;
 }
 
 
@@ -141,48 +142,47 @@ ul {
   color: white;
   display: none;
   text-align: center;
-  padding: 100px 20px;
+  padding: 100px;
   height: 100%;
+  font-family: vercetti;
+  font-size: 1.2vw;
 }
 
 #Home {
   background-color: rgb(146, 148, 252);
-height: 150vh;
+height: 130vh;
 }
 #News {
   background-color: rgb(71, 65, 110);
-  height: 150vh;
+  height: 130vh;
 }
 #Contact {
   background-color: rgb(175, 176, 255);
-  height: 150vh;
+  height: 130vh;
 }
 #About {
   background-color: #2b2753;
-  height: 150vh;
+  height: 130vh;
 }
 
 
 #options {
   font-family: Vercetti;
   text-align: center;
-  padding: 15px;
+  padding: 0px;
   display: grid;
   grid-auto-flow: row dense;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 350px 350px 350px 350px 350px 350px 350px 350px 350px;
-
-  gap: 20px;
+  grid-template-rows: 45% 45% 45% 45% 45% 45%;
+  
+  gap: 5%;
 }
-
-.options1 {
-  padding-top: 100px;
-}
-
 
 
 iframe {
   border-radius: 10px;
+  height: 35vh;
+  width: 100%;
 }
 
 .Calarts {

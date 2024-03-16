@@ -19,9 +19,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #2b2753;
-    position: sticky;
     top: 0;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 999;
   }
   
   li {
@@ -103,6 +103,8 @@ body {
     font-family: Roboto;
     font-size: 16px;
     color:  aliceblue;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .animyear {
@@ -133,7 +135,7 @@ body {
 
 .gif {
   width: 50%;
-  height: 52%;
+
   padding-top: 2%;
 }
 
@@ -145,6 +147,7 @@ body {
   margin: auto;
   margin-top: 5%;
   border-radius: 20px;
+  z-index: 0;
 }
 
 .old {
@@ -154,6 +157,7 @@ body {
   margin: auto;
   margin-top: 5%;
   border-radius: 20px;
+  z-index: 0;
 }
 
 #animationsnew {
@@ -165,4 +169,8 @@ body {
   padding-bottom: 5%;
   background-color:rgb(71, 65, 110);
   padding-top: 5%;
+}
+
+video {
+  z-index: 0;
 }
